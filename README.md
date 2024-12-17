@@ -1,5 +1,5 @@
 # Crispy Cuts Website
-# Daniel Schager and Daniel Jackson
+<h1> Daniel Schager and Daniel Jackson </h1>
 
 <p> For our project, we aimed to create an affordable landscaping and yard service company mainly targeted towards local people. We wanted the page to be appealing but also simple and easy to navigate so users don’t have any trouble scheduling a service or checking out other sections on our website. Each of the four .html pages we have connected have a separate .css file to help organize our lengthy code. Php files were used as a submit button for our estimator section, and another file for sending an email to our company in the contact section. We included identical headers for each of our pages to ensure consistency and cleanliness. </p>
 
