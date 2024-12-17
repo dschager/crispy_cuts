@@ -1,4 +1,6 @@
-# crispy_cuts
+# Crispy Cuts Website
+# Daniel Schager and Daniel Jackson
+
 <p> For our project, we aimed to create an affordable landscaping and yard service company mainly targeted towards local people. We wanted the page to be appealing but also simple and easy to navigate so users don’t have any trouble scheduling a service or checking out other sections on our website. Each of the four .html pages we have connected have a separate .css file to help organize our lengthy code. Php files were used as a submit button for our estimator section, and another file for sending an email to our company in the contact section. We included identical headers for each of our pages to ensure consistency and cleanliness. </p>
 
 <p> Starting with our homepage, we decided to use font groups from Google which gave us a clean look and appealing font for our website. On the top left of the page is a custom logo within a header, which users can click on to bring them back to the home page with an img and href. We have a navigation bar on each of the pages to allow users to navigate between pages easily. The four pages we have, structured in an list, are: home, estimator, prior customers, and a contact page. A learn more button is used under our header, which allows users to click on and learn more about our company. Uiverse.io by nikk7007 gave us a cool effect to add to the learn button and make it more stylish. The last parts of our home page consist of offered services to customers, some quotes from what our customers say, and a copyright section for Crispy Cuts. </p>
