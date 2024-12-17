@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-
+    scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crispy Cuts|Estimator</title>
+    <link rel="stylesheet" href="projectWebsiteStyle.css">
+    <link rel="stylesheet" href="estimatorStyle.css">
+    <link href="https://fonts.googleapis.com/css2?
+    family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!--Fonts From Google that are not readily available without being referenced-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <div class="logo">
+        <a href="projectWebsite.html"> 
+            <img class="LogoImg" src="CClogo2.jpg" height="100" width="100" alt="Company Logo">
+        </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="projectWebsite.html">Home</a></li>
+                <li><a href="projectwebsite_estimator.html">Estimator</a></li>
+                <li><a href="projectWebsite_customers2.html">Prior Customers</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+ <div class="pageBG">
+    <div class="estimatorBG"> 
+        <h1>Estimator</h1>
+            <form id="estimator">
+                <fieldset>
+                    <!-- Hardscaping -->
+                    <p>Hardscaping</p>
+                    <label for="pathway"> Pathway Installation <input id="pathway" name="pathway" type="radio" /><span>$400</span></label><br>
+                    <label for="fencing">Fencing<input id="fencing" name="fencing" type="radio" /><span>$300</span></label><br>
+                    <!-- Softscaping -->
+                    <p>Softscaping</p>
+                    <label for="mulching">Mulching<input id="mulching" name="mulching" type="radio" /><span>$150</span></label><br>
+                    <label for="seed">Seed Planting<input id="seed" name="seed" type="radio" /><span>$75</span></label><br>
+                    <!-- Maintenance -->
+                    <p>Maintenance</p>
+                    <label for="mowing">Mowing Service<input id="mowing" name="mowing" type="radio" /><span>$50</span></label><br>
+                    <label for="pruning">Pruning<input id="pruning" name="pruning" type="radio" /><span>$50</span></label><br>
+                    <label for="leaf">Leaf Removal<input id="leaf" name="leaf" type="radio" /><span>$50</span></label><br>
+                    <label for="weed">Weed Wacking<input id="weed" name="weed" type="radio" /><span>$50</span></label><br>
+                    <!-- Seasonal Offerings -->
+                    <p>Seasonal Offerings</p>
+                    <label for="snow">Snow Removal<input id="snow" name="snow" type="radio" /><span>$75</span></label><br>
+                    <label for="holiday">Holiday Decorations<input id="holiday" name="holiday" type="radio" /><span>$200</span></label><br>
+                    <label for="power">Power Washing<input id="power" name="power" type="radio" /><span>$200</span></label><br>
+                </fieldset>
+                
+                <div id="totalCost" style="margin-top: 20px; font-weight: bold;">Total Estimate: $0.00</div>
+            
+            <input type="reset" value="Reset" />
+            <input type="button" value="Get Estimate" />
+            </form>
+            
+            <h1>Request Estimate and Provide Details</h1>
+            <form action="submit.php" method="POST">
+                <!-- Name Field -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <!-- Phone Number Field -->
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+
+                <!-- Address Field -->
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="3" cols="50" required></textarea><br><br>
+
+                <!-- Services Field (from the estimator) -->
+                <label for="services">Desired Services:</label><br>
+                <textarea id="services" name="services" rows="4" cols="50" required></textarea><br><br>
+
+
+                <!-- Price Field (generated from estimator) -->
+                <label for="price">Price (from estimator):</label>
+                <input type="text" id="price" name="price"><br><br>
+
+                <!-- Additional Notes Field -->
+                <label for="notes">Additional Notes:</label><br>
+                <textarea id="notes" name="notes" rows="4" cols="50"></textarea><br><br>
+
+                <!-- Submit Button -->
+                <button type="submit" class="button">Submit Order</button>
+            </form>
+    </div>
+</div>
+    <script src="estimatorFunction.js"></script>
+</body>
+</html>
