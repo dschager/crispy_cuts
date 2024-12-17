@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-
+scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Learn More</title>
+<link rel="stylesheet" href="projectWebsiteStyle.css">
+<link href="https://fonts.googleapis.com/css2?
+family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<!--Fonts From Google that are not readily available without being referenced-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!-- Header Section -->
+<header>
+<div class="logo">
+<h1>
+    <a href="projectWebsite.html"> 
+        <img class="LogoImg" src="CClogo2.jpg" height="100" width="100" alt="Company Logo">
+    </a>
+</h1>
+</div>
+
+<nav>
+<ul>
+<li><a href="projectwebsite.html">Home</a></li>
+<li><a href="projectwebsite_estimator2.html">Estimator</a></li>
+<li><a href="projectwebsite_customers2.html">Prior Customers</a></li>
+<li><a href="projectwebsite_contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<body>
+    <main class="employee-container">
+        <!-- Employee Card 1 -->
+        <div class="employee-card">
+            <img src="danielJ.jpg" alt="Photo of Daniel Jackson" class="profile-pic">
+            <h2>Daniel Jackson</h2>
+            <p>Co-Founder</p>
+            <p>From Converse, Indiana where he grew up doing much of the services with his dad.</p>
+            <p><strong>Email:</strong> daniel.jackson@crispycuts.com</p>
+            <p><strong>Phone:</strong> 765-669-2468</p>
+        </div>
+
+        <!-- Employee Card 2 -->
+        <div class="employee-card">
+            <img src="danielS.jpeg" alt="Photo of Daniel Schager" class="profile-pic">
+            <h2>Daniel Schager</h2>
+            <p>Co-Founder</p>
+            <p>Wildcat Football Player where he learned hardwork and dependability, now willing to put that towards you.</p>
+            <p><strong>Email:</strong> daniel.schager@crispycuts.com</p>
+            <p><strong>Phone:</strong> 111-222-3333</p>
+        </div>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out to us below:</p>
+            <form action="send_email.php" method="POST" class="contact-form">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required placeholder="Your Name">
+          
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required placeholder="Your Email">
+          
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+          
+              <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+
+    </main>
+</body>
+</html>
